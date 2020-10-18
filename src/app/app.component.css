@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.frame {
+    width: 400px;
+    height: 200px;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    position: relative;
+    overflow: hidden;
+}
+.slide-item {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transition: 0.7s;
+}
+.img{
+    width: 100%;
+    height: 100%;
+}
+.circle {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: rgb(100, 98, 98);
+    box-sizing: border-box;
+}
+.circle-active {
+    background-color: rgb(219, 30, 30);
+}
